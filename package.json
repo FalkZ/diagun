@@ -1,0 +1,19 @@
+{
+  "name": "diagun",
+  "private": true,
+  "type": "module",
+  "bin": { "diagun": "./diagun.ts" },
+  "scripts": {
+    "start": "bun run diagun.ts",
+    "check": "tsc --noEmit",
+    "apply": "bun link"
+  },
+  "dependencies": {
+    "@lezer/markdown": "^1.6.3",
+    "diagonjs": "1.6.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.9.3"
+  }
+}
